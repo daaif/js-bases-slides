@@ -1,27 +1,37 @@
-<div class="container small">
-  <h1>Here is the content of this presentation</h1>
+<div class="container">
+  <h1 class="text-center">Les types primitifs</h1>
   <p>
+    <i class="fas fa-angle-right text-primary"></i>
+    Pour tous ces types, l'affectation se fait par valeur. <br />
+    <i class="fas fa-angle-right text-primary"></i>
+    JS étant un langage dynamique, on peut à tout moment déterminer le type
+    d'une variable en utilisant l'opérateur
+    <code>typeof</code>
     <textarea class="myCode">
-<body>
-    <section class="slides">
-        <section class="slide page" data-page="p001"></section>
-        <section class="slide page" data-page="p002"></section>
-        
-        <section class="slide page" data-page="p003"></section> <!-- /* previous slide */ -->
-        
-        <section class="slide page" data-page="p004"></section> <!-- /* we are here */ -->
-
-        <section class="slide example"
-                data-intro="p005" 
-                data-html="p005" 
-                data-css="p005" 
-                data-js="p005"> </section> <!-- /* next slide */ -->
-
-        <section class="slide page" data-page="p006"></section>
-    </section>
-    <div id="templates"></div>
-    <script src="js/slides4.js"></script>
-</body></textarea
+  var x = true;
+  console.log( typeof x ); /*  -> "boolean" */</textarea
     >
   </p>
+  <ul class="fa-ul big2 ">
+    <li class="blink-item">
+      <i class="fas fa-arrow-right text-success"></i>
+      number
+    </li>
+    <li class="blink-item">
+      <i class="fas fa-arrow-right text-success"></i>
+      boolean
+    </li>
+    <li class="blink-item">
+      <i class="fas fa-arrow-right text-success"></i>
+      string
+    </li>
+    <li class="blink-item">
+      <i class="fas fa-arrow-right text-success"></i>
+      undefined
+    </li>
+    <li class="blink-item">
+      <i class="fas fa-arrow-right text-success"></i>
+      null
+    </li>
+  </ul>
 </div>
